@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100px;
+    height: 100px;  
+}
+
+.item-card{
+    width: 100px;
+    height: auto;
+    flex: 0 0 28.33%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    display: felx;
+ padding: 5px;
+}
+
+.item-details{
+    flex-direction: row;
+    display: flex;
+}
