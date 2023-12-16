@@ -1,0 +1,12 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
