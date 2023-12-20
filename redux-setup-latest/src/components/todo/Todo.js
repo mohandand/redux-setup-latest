@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+
+//getting actions from toDoslider
 import { addTodo, toggleComplete, deleteTodo } from "../Reducers/toDoSlider";
 
 const ToDo = () => {
